@@ -40,7 +40,7 @@ class Weather: NSObject {
     // baseUrl is a string containing only the key
     // here change [yourkey] to your key
     
-    static let baseUrl = "https://api.darksky.net/forecast/cd1cec9d419f3c931333def0a58fae35/"
+    static let baseUrl = "https://api.darksky.net/forecast/[yourkey]/"
     static func fetchWeatherData(location: CLLocationCoordinate2D, completion: @escaping ([Weather]?) -> ()){
         
         // conbine the rest of the url by getting the latitude and the longitude
